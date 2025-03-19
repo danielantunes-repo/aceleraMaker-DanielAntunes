@@ -5,3 +5,4 @@ public class PrimeiroProjeto {
 		System.out.println("Primeiro Projeto!");
 	}
 }
+
