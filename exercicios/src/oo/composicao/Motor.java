@@ -2,7 +2,7 @@ package oo.composicao;
 
 public class Motor {
 
-	Carro carro;
+	final Carro carro;
 	boolean ligado = false;
 	double fatorInjecao = 1;
 
