@@ -1,4 +1,7 @@
-package oo.heranca.desafio;
+package oo.heranca.teste;
+
+import oo.heranca.desafio.Ferrari;
+import oo.heranca.desafio.Gol;
 
 public class Teste {
 	
