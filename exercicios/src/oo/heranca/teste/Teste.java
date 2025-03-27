@@ -19,7 +19,8 @@ public class Teste {
 		f.acelerar();
 		f.frear();
 		
-//		System.out.println(c);
+		
+		System.out.println(f.velocidadeDoAr());
 		System.out.println(f);
 		
 		
