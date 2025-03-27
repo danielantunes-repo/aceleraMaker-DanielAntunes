@@ -10,8 +10,5 @@ public class Predicado {
 		Produto produto = new Produto("Pc", 3900.00, 0.15);
 		System.out.println(isCaro.test(produto));
 		
-	}
-
-	
-	
+	}	
 }
