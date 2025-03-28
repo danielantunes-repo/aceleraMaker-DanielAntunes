@@ -17,7 +17,7 @@ public class DesafioFilter {
 		
 		List<CarroDesafioFilter> carros = Arrays.asList(c1, c2, c3, c4, c5);
 		
-		Predicate<CarroDesafioFilter> carrosBaratos = c -> c.preco >= 50000;
+		Predicate<CarroDesafioFilter> carrosCaros = c -> c.preco >= 50000;
 		Predicate<CarroDesafioFilter> temAr = c -> c.arCondicionado;
 		
 		Function<CarroDesafioFilter, String> carroComAr =
@@ -25,7 +25,7 @@ public class DesafioFilter {
 		
 		
 		carros.stream()
-			.filter(carrosBaratos)
+			.filter(carrosCaros)
 			.filter(temAr)
 			.map(carroComAr)
 			.forEach(System.out::println);
