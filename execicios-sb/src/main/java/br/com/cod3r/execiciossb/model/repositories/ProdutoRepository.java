@@ -6,6 +6,6 @@ import br.com.cod3r.execiciossb.model.entities.Produto;
 
 public interface ProdutoRepository extends CrudRepository<Produto, Integer> {
 
-	
+	public Iterable<Produto> FindByNameContaining(String parteNome);
 	
 }
