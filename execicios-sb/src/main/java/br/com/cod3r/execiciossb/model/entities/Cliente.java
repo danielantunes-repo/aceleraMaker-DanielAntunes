@@ -1,4 +1,4 @@
-package br.com.cod3r.execiciossb.model;
+package br.com.cod3r.execiciossb.model.entities;
 
 public class Cliente {
 
